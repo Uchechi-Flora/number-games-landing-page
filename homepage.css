@@ -1,0 +1,300 @@
+/*STYLE FOR MATH ADDITION*/
+body {
+    margin:0;
+}
+
+#nav-img {
+    width:170px;
+    height:120px;
+}
+
+h3{
+    font-family: Arial;
+}
+
+.nav-link {
+    margin-left: 30px !important;
+}
+
+/*FOR NUMBER GAMES*/
+
+#banner {
+   /* background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),url(../IMAGES/number-unsplash.jpg); */
+   background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75));
+   /*  background-color: #242943; */
+    height: 60%;
+    margin-top: 10px;
+    background-size: cover;
+}
+
+h1 {
+    position: relative;
+    margin-left: 450px;
+    margin-top: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.2em;
+}
+
+#line-demarcate {
+    margin-right: 16%;
+    margin-left: 25%;
+    
+}
+
+#start-btn {
+    color: white;
+}
+
+.inner{
+    padding-top:35px ;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    color: white;
+}
+
+.content {
+    position: relative;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    margin-right: 300px;
+    letter-spacing: 0.2em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.game-buttons {
+    text-decoration: none;
+    color: black;
+}
+
+.game-buttons:hover {
+    text-decoration: none;
+}
+
+#tile-wrap {
+    display:flex;
+}
+
+h2 {
+    font-family: verdana;
+}
+
+#main {
+    background-image:  linear-gradient(rgba(164, 152, 152, 0.75), rgba(216, 183, 106, 0.75));
+   /* background-image: url(../IMAGES/numbers-bubbles-removebg-preview.png); */
+   /* background-color: red; */
+    width:40%;
+    height:55vh;
+    /* display: inline-block; */
+}
+
+#main:hover {
+     background-color: coral; 
+    /* background-image: linear-gradient(rgba(0, 255, 255), rgba(0, 255, 255)), url(../IMAGES/numbers-bubbles-removebg-preview.png); */
+}
+
+.first-game-content {
+    text-align: center;
+    padding:70px;
+}
+
+#first-game-btn {
+    background-image: linear-gradient(rgba(135, 226, 164, 0.75), rgba(164, 152, 152, 0.75));
+    width:120px;
+    border-radius: 27px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+#first-game-btn:hover {
+        background-color: rgb(44, 192, 228);
+}
+
+#snd-game-btn {
+    background-image: linear-gradient(rgba(135, 180, 226, 0.75), rgba(164, 152, 152, 0.75));
+    width:150px;
+    border-radius: 27px;
+    padding: 10px;
+    font-size: 18px
+}
+
+#snd-game-btn:hover {
+   background-color: rgb(228, 188, 44);
+}
+
+#thd-game-btn {
+    background-image: linear-gradient(rgba(91, 212, 128, 0.75), rgba(164, 152, 152, 0.75));
+    width:150px;
+    border-radius: 27px;
+    padding: 10px;
+    font-size: 18px
+}
+
+#thd-game-btn:hover {
+    background-color: rgb(124, 228, 44);
+}
+
+#fot-game-btn {
+    background-image: linear-gradient(rgba(232, 165, 71, 0.75), rgba(164, 152, 152, 0.75));
+    width:120px;
+    border-radius: 27px;
+    padding: 10px;
+    font-size: 18px
+}
+
+#fot-game-btn:hover {
+    background-color: rgb(44, 102, 228);
+}
+
+.small-tile-text {
+    font-family: "Comic Sans MS";
+    font-size:18px;
+}
+
+.big-tile-text {
+    font-family: "Comic Sans MS";
+    font-size:20px;
+}
+
+#main-two {
+    background-image:  linear-gradient(rgba(135, 226, 164, 0.75), rgba(164, 152, 152, 0.75));
+    /* background-color: blueviolet; */
+    width:70%;
+    /*float: right; */
+}
+
+#main-two:hover {
+    background-color: brown;
+}
+
+.game-titles {
+    text-align: center;
+    position: relative;
+    padding-top:25px;
+}
+
+#tile-wrap-2 {
+    display: flex;
+}
+
+#main-three {
+    background-image:linear-gradient(rgba(101, 145, 247, 0.75), rgba(120, 235, 226, 0.75));
+    width:70%;
+}
+
+#main-three:hover {
+    background-image:linear-gradient(rgba(118, 233, 100, 0.781), rgba(120, 235, 226, 0.75));
+}
+
+#main-four {
+    background-image:linear-gradient(rgba(222, 158, 158, 0.75), rgba(250, 76, 76, 0.75));
+    width:40%;
+    float: right;
+    position: relative;
+}
+
+#main-four:hover {
+    background-image:linear-gradient(rgba(245, 108, 108, 0.75), rgba(215, 250, 76, 0.75));
+}
+
+
+
+/* BREAKPOINTS*/
+@media screen and (min-width:480px) and (max-width:600px) {
+
+    #banner {
+        height:60%;
+        width:100%;
+    }
+
+    .major {
+        font-size: 13px;
+        word-spacing: 0;
+        margin-right: 400px;
+        margin-bottom: 10px; 
+    }
+
+    img {
+        display: none;
+    }
+
+    .content {
+        font-size: 16px;
+        display: contents;
+    }
+
+    h4 {
+        margin-left:90px;
+    }
+   
+    #tile-wrap {
+        display: -moz-stack;
+    }
+
+    #main {
+        height: 55%;
+    }
+    
+    .small-tile-text {
+        font-size: 16px;
+    }
+
+    #first-game-btn {
+       position: relative;
+       right:30px;
+    }
+
+    #tile-wrap-2 {
+        display: -moz-stack;
+    }
+
+    #main-four {
+        width:45%;
+    }
+
+    #fot-game-btn {
+        position: relative;
+        right:15px;
+    }
+}
+
+@media screen and (min-width:700px) and (max-width:900px) {
+    .major {
+        font-size: 20px;
+        margin-right: 400px;
+        margin-bottom: 7px; 
+    }
+
+    img {
+        display: none;
+    }
+    .content {
+        font-size: 18px;
+        display: list-item;
+    }
+
+    h4{
+        position: relative;
+        margin-left: 100px;
+    }
+
+    #start-btn {
+        margin-left: 60px;
+    }
+
+    #main-three {
+        width: 50%;
+    }
+
+    #main-four {
+        width:70%;
+    }
+
+
+}
